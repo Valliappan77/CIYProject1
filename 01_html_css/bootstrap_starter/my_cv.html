@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bootstrap Walkthrough</title>
 
     <!-- default bootstrap -->
@@ -18,16 +19,222 @@
     
     <!-- animate.css -->
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/animatecss/3.5.2/animate.min.css">
-    
+    <link rel="stylesheet" href="custom.css">
+
     <!-- use this style for testing and development purposes -->
-    <!-- <style type="text/css">
+    <style type="text/css">
     .container{border: 2px dotted green;}
     .row{border: 1px dotted red;}
     .row [class*=' col-']{border: 2px dotted purple;}
-    </style> -->
+    </style> 
     
 </head>
 <body>
+   <div class="container">
+        <!--row 1-->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="jumbotron">
+                    <h1>Marvel</h1>
+                    <p>Avengers</p>
+                    <p>
+                        <a class="btn btn-primary btn-lg" href="https://www.google.com/" role="button">Learn more</a>
+                    </p>
+                 </div>
+            </div>
+        </div>
+        <!--row 2-->
+        <div class="row">
+            <div class="col-md-4">
+                    <div class="thumbnail">
+                        <img src="http://via.placeholder.com/400x400" alt"">
+                        <div class="caption">
+                            <h3>Portfolio 1</h3>
+                            <p>Iron Man</p>
+                            <p>
+                                <a class="btn btn-primary" href="https://www.google.com/">
+                                    View More
+                                </a>
+                            </p>
+                    </div>
+            </div>
+        </div>
+           <div class="col-md-4">
+                <div class="thumbnail">
+                        <img src="http://via.placeholder.com/400x400" alt"">
+                        <div class="caption">
+                            <h3>Portfolio 2</h3>
+                            <p>Captain America</p>
+                            <p>
+                                <a class="btn btn-primary" href="https://www.google.com/">
+                                    View More
+                                </a>
+                            </p>
+                        </div>
+                </div>
+           </div>
+           <div class="col-md-4">
+                <div class="thumbnail">
+                        <img src="http://via.placeholder.com/400x400" alt"">
+                        <div class="caption">
+                            <h3>Portfolio 2</h3>
+                            <p>Thor</p>
+                            <p>
+                                <a class="btn btn-primary" href="https://www.google.com/">
+                                    View More
+                                </a>
+                            </p>
+                        </div>
+                </div>
+           </div>
+        </div>
+        
+        <!--row 3-->
+        <div class="row">
+            <div class="col-md-12">
+                    <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/QwievZ1Tx-8">
+                            </iframe>
+                    </div>
+            </div>
+        </div>
+    
+        <!--row 4-->
+        <div class="row">
+            <div class="col-md-6">
+                <h3>
+                    Keen to Enlist?
+                </h3>
+                <form action="">
+                    <div class="form-group">
+                        <label for="">Name</label>
+                        <input type="text" class="form-control" id="">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="">Email</label>
+                        <input type="Email" class="form-control" id="">
+                    </div>
+                    
+                    <div class="form-group">
+                        <div class="radio">
+                            <label>
+                                <input type="radio" name="my radio" id_"my_radio_1"> test
+                            </label>
+                            <label>
+                                <input type="radio" name="my radio" id_"my_radio_2"> test2
+                            </label>                         
+                        </div>
+                        
+                    </div>
+
+                    <div>
+                        <input type="submit" class="btn btn-success" value="Drop me an email">
+                        </input>
+
+                    </div>
+
+                </form>
+           </div>
+            <div class="col-md-6 text-center">
+                <h1>
+                MOVIE INFO
+                </h1>
+                <p>
+                An unprecedented cinematic journey ten years in the making and spanning the entire Marvel Cinematic Universe, Marvel Studios' "Avengers: Infinity War" brings to the screen the ultimate, deadliest showdown of all time. The Avengers and their Super Hero allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe.
+                </p>
+
+            </div>
+        </div>
+   
+        <!--row 5-->
+        <div class="row">
+            <div class="col-md-4">
+                <h3>
+                Enlistment Date
+                </h3>
+
+                <table class="table">
+                    <tr>
+                        <th>
+                        Day
+                        </th>
+
+                        <th>
+                        Hours
+                        </th>
+                    </tr>
+
+                    <tr>
+                         <td>
+                        Monday
+                        </td>
+                            
+                        <td>
+                        9-6pm  
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                        Wednesday
+                        </td>
+                               
+                        <td>
+                        8-6pm  
+                        </td>
+
+                    </tr>
+
+                </table>
+            </div> 
+ 
+            <div class="col-md-4">
+                <div class="embed-responsive embed-responsive-4by3">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.795462237436!2d103.78531511744382!3d1.297412400000008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1a4fdcdcb793%3A0x560828fd88f7aa6!2sJTC+Launchpad!5e0!3m2!1sen!2ssg!4v1527912797318" width="600" height="450" frameborder="0" style="border:0" allowfullscreen>
+                    </iframe>
+
+                </div>
+            </div> 
+            <div class="col-md-4">
+                <h3>Find Me
+                </h3>
+                <div class="list-group">
+                    <a href="tel:12345678" class="list-group-item">
+                            <i class="fa fa-phone" aria-hidden="true"></i>
+                            12345678
+                    </a>
+                    <a href="email: AVG@gmail.com" class="list-group-item">
+                            <i class="fa fa-envelope" aria-hidden="true"></i>
+                            avg@email.com
+                    </a>
+                    <a href="kill me" class="list-group-item">
+                            <i class="fa fa-cutlery" aria-hidden="true"></i> 
+                            1 Infinity Drive
+                    </a>
+                            
+                </div>
+            </div>  
+        </div>
+        <!--row 6-->
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <ul class="list-inline">
+                    <li>
+                        <a ref="https://">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a ref="https://">
+                            <i class="fa fa-instagram" aria-hidden="true"></i>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>  
+
+    </div>
 
 </body>
 </html>

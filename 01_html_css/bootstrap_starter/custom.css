@@ -1,3 +1,14 @@
 .btn {
     font-size: 12px;
 }
+
+.jumbotron {
+    background-image: url("https://images6.alphacoders.com/322/thumb-1920-322791.jpg")
+    }
+
+.list-inline   {
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    } 
